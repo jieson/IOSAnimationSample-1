@@ -14,6 +14,14 @@
 		0364C7591B1DE77000760C67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0364C7581B1DE77000760C67 /* Images.xcassets */; };
 		0364C75C1B1DE77000760C67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0364C75A1B1DE77000760C67 /* LaunchScreen.xib */; };
 		0364C7681B1DE77000760C67 /* IOSAnimationSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364C7671B1DE77000760C67 /* IOSAnimationSampleTests.m */; };
+		0364C7731B1DE91800760C67 /* PositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364C7721B1DE91800760C67 /* PositionViewController.m */; };
+		0364C7761B1DF42C00760C67 /* OpacityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364C7751B1DF42C00760C67 /* OpacityViewController.m */; };
+		0364C7791B1DF61E00760C67 /* ScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364C7781B1DF61E00760C67 /* ScaleViewController.m */; };
+		0364C77C1B1DF7E100760C67 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364C77B1B1DF7E100760C67 /* ColorViewController.m */; };
+		0364C77F1B1DF9B900760C67 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364C77E1B1DF9B900760C67 /* RotationViewController.m */; };
+		0364C7821B1E04B000760C67 /* RepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364C7811B1E04B000760C67 /* RepeatViewController.m */; };
+		0364C7851B1E079B00760C67 /* EasingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364C7841B1E079B00760C67 /* EasingViewController.m */; };
+		0364C7881B1E07A700760C67 /* SpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364C7871B1E07A700760C67 /* SpringViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,22 @@
 		0364C7611B1DE77000760C67 /* IOSAnimationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSAnimationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0364C7661B1DE77000760C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0364C7671B1DE77000760C67 /* IOSAnimationSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSAnimationSampleTests.m; sourceTree = "<group>"; };
+		0364C7711B1DE91800760C67 /* PositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionViewController.h; sourceTree = "<group>"; };
+		0364C7721B1DE91800760C67 /* PositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionViewController.m; sourceTree = "<group>"; };
+		0364C7741B1DF42C00760C67 /* OpacityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpacityViewController.h; sourceTree = "<group>"; };
+		0364C7751B1DF42C00760C67 /* OpacityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpacityViewController.m; sourceTree = "<group>"; };
+		0364C7771B1DF61E00760C67 /* ScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleViewController.h; sourceTree = "<group>"; };
+		0364C7781B1DF61E00760C67 /* ScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleViewController.m; sourceTree = "<group>"; };
+		0364C77A1B1DF7E100760C67 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		0364C77B1B1DF7E100760C67 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		0364C77D1B1DF9B900760C67 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		0364C77E1B1DF9B900760C67 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		0364C7801B1E04B000760C67 /* RepeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatViewController.h; sourceTree = "<group>"; };
+		0364C7811B1E04B000760C67 /* RepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatViewController.m; sourceTree = "<group>"; };
+		0364C7831B1E079B00760C67 /* EasingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasingViewController.h; sourceTree = "<group>"; };
+		0364C7841B1E079B00760C67 /* EasingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasingViewController.m; sourceTree = "<group>"; };
+		0364C7861B1E07A700760C67 /* SpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringViewController.h; sourceTree = "<group>"; };
+		0364C7871B1E07A700760C67 /* SpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +113,22 @@
 				0364C7581B1DE77000760C67 /* Images.xcassets */,
 				0364C75A1B1DE77000760C67 /* LaunchScreen.xib */,
 				0364C74B1B1DE76F00760C67 /* Supporting Files */,
+				0364C7711B1DE91800760C67 /* PositionViewController.h */,
+				0364C7721B1DE91800760C67 /* PositionViewController.m */,
+				0364C7741B1DF42C00760C67 /* OpacityViewController.h */,
+				0364C7751B1DF42C00760C67 /* OpacityViewController.m */,
+				0364C7771B1DF61E00760C67 /* ScaleViewController.h */,
+				0364C7781B1DF61E00760C67 /* ScaleViewController.m */,
+				0364C77A1B1DF7E100760C67 /* ColorViewController.h */,
+				0364C77B1B1DF7E100760C67 /* ColorViewController.m */,
+				0364C77D1B1DF9B900760C67 /* RotationViewController.h */,
+				0364C77E1B1DF9B900760C67 /* RotationViewController.m */,
+				0364C7801B1E04B000760C67 /* RepeatViewController.h */,
+				0364C7811B1E04B000760C67 /* RepeatViewController.m */,
+				0364C7831B1E079B00760C67 /* EasingViewController.h */,
+				0364C7841B1E079B00760C67 /* EasingViewController.m */,
+				0364C7861B1E07A700760C67 /* SpringViewController.h */,
+				0364C7871B1E07A700760C67 /* SpringViewController.m */,
 			);
 			path = IOSAnimationSample;
 			sourceTree = "<group>";
@@ -219,9 +259,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0364C7881B1E07A700760C67 /* SpringViewController.m in Sources */,
 				0364C7541B1DE77000760C67 /* ViewController.m in Sources */,
+				0364C7851B1E079B00760C67 /* EasingViewController.m in Sources */,
+				0364C7821B1E04B000760C67 /* RepeatViewController.m in Sources */,
+				0364C7791B1DF61E00760C67 /* ScaleViewController.m in Sources */,
+				0364C7761B1DF42C00760C67 /* OpacityViewController.m in Sources */,
 				0364C7511B1DE77000760C67 /* AppDelegate.m in Sources */,
+				0364C77F1B1DF9B900760C67 /* RotationViewController.m in Sources */,
 				0364C74E1B1DE77000760C67 /* main.m in Sources */,
+				0364C7731B1DE91800760C67 /* PositionViewController.m in Sources */,
+				0364C77C1B1DF7E100760C67 /* ColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
