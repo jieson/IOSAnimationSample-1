@@ -1,0 +1,10 @@
+# IOSAnimationSample
+Animation Sample
+* Opacity
+* Position
+* Repeat
+* Rotation
+* Scale
+* Color
+* Easing
+* Spring
